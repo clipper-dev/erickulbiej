@@ -1,0 +1,14 @@
+.main-content{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    margin-right: 10%;
+    width: 80%;
+    min-height: 70vh;
+    justify-content: center;
+}
+
+.image-background {
+    max-width: 100%;
+    object-fit: contain;
+}

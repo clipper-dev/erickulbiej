@@ -1,14 +1,14 @@
 .navbar {
 	height: 50px;
 	width: 100%;
-	background-color: var(--secondaryBackground);
+	background-color: var(--primaryBackground);
 	box-shadow: -1px 0px 5px #00000030;
 	display: flex;
 	justify-content: space-between;
 	align-items: center;
 	position: sticky;
 	top: 0;
-	z-index: 9;
+	z-index: 999;
 }
 
 .navbar-main-logo {

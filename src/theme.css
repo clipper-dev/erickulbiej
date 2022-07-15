@@ -21,6 +21,10 @@ a {
 	text-decoration: none;
 }
 
+.text--centered {
+	text-align: center;
+}
+
 a,
 p {
 	font-weight: 400;
@@ -61,4 +65,6 @@ p {
     
     --fontAlternateText: #BBE1FA;
     --fontMainContast: #f9f9f9;
+
+    --primaryBackground: #f9f9f9;
 }

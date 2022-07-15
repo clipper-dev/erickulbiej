@@ -3,15 +3,17 @@
     height: fit-content;
     min-height: 200px;
     background-color: var(--primaryAccent);
-
 }
 
 .footer-container {
-    justify-content: space-around;
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
     width: 80%;
     height: 80%;
-    margin: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
+
 }
 
 .footer-column {
@@ -23,7 +25,7 @@
 .footer-header {
     font-size: 1.5rem;
     font-weight: 600;
-    max-width: 60ch;
+    max-width: 50ch;
     padding: 0.5rem;
     color: var(--fontMainContast);
 
@@ -49,7 +51,7 @@
 .footer-content {
     font-size: 1rem;
     font-weight: 400;
-    max-width: 60ch;
+    max-width: 50ch;
     line-height: 1.5;
     padding: 0.5rem;
     color: var(--fontAlternateText);
