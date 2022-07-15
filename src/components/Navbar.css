@@ -1,0 +1,121 @@
+.navbar {
+	height: 50px;
+	width: 100%;
+	background-color: var(--secondaryBackground);
+	box-shadow: -1px 0px 5px #00000030;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	position: sticky;
+	top: 0;
+	z-index: 9;
+}
+
+.navbar-main-logo {
+	cursor: normal;
+	height: 20px;
+
+}
+
+.title-container {
+	display: flex;
+	align-items: center;
+	padding: 10px;
+
+}
+
+.app-title {
+	font-size: 1.5rem;
+	margin: 1rem;
+	font-family: 'Dosis', sans-serif;
+	border-bottom: solid 2px transparent;
+}
+.app-title:hover{
+	border-bottom: solid 2px var(--primaryHighlight);
+	transition: all 0.3s ease-in-out;
+
+}
+
+
+
+
+.sideBar-menu {
+	background-color: var(--secondaryBackground);
+	height: 100vh;
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	position: fixed;
+	z-index: 8;
+
+}
+
+.navBar-menu {
+	height: 50px;
+	width: fit-content;
+	display: flex;
+	padding: 0;
+	justify-content: center;
+}
+
+.navBar-menu-items {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 0px;
+	list-style: none;
+}
+
+.sideBar-active {
+	right: 0;
+	transition: 200ms;
+	box-shadow: -1px 0px 5px #00000030;
+}
+
+.sideBar-hidden {
+	right: -100%;
+	transition: 400ms;
+}
+
+.sideBar-menu-items {
+	padding: 0;
+	background-color: var(--secondary);
+}
+
+.nav-text {
+	display: flex;
+	justify-content: left;
+	padding: 1rem;
+	list-style: none;
+}
+
+.nav-text a {
+	text-decoration: none;
+	display: flex;
+	align-items: center;
+}
+
+
+.nav-text-top{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	padding-inline: 1rem;
+}
+
+.navBar-menu-item-title {
+	border-bottom: solid 2px transparent;
+
+}
+
+.navBar-menu-item-title:hover{
+	border-bottom: solid 2px var(--primaryHighlight);
+	transition: all 0.3s ease-in-out;
+
+}
+
+.nav-text-top:hover .icon--nav {
+	fill: var(--iconChosen);
+	transition: all 0.3s ease-in-out;
+}
