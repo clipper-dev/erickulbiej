@@ -1,6 +1,6 @@
 {
-  "homepage": "https://erickulbiej.com/",
   "name": "erickulbiej",
+  "homepage": "https://erickulbiej.com",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
